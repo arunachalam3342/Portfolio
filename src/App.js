@@ -31,8 +31,8 @@ function App() {
 
   const variants = {
     default: {
-      x: mousePosition.x - 16,
-      y: mousePosition.y - 16,
+      x: mousePosition.x,
+      y: mousePosition.y,
     }
   }
 
@@ -49,8 +49,7 @@ function App() {
 
   return (
     <div className="App">
-      <motion.div className="cursor" variants={variants} animate="default" />
-
+      
       <Router>
         <Preloader load={load} />
 
