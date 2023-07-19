@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2d465ea9.css",
+    "main.js": "/Portfolio/static/js/main.e33b8af4.js",
+    "static/media/loading_back.gif": "/Portfolio/static/media/loading_back.14d66e8fab2475211813.gif",
+    "static/media/Letter.png": "/Portfolio/static/media/Letter.3c3f3168cdc9ec0bde17.png",
+    "static/media/Real_Estate.png": "/Portfolio/static/media/Real_Estate.6381f629408583a99ec4.png",
+    "static/media/developer.png": "/Portfolio/static/media/developer.ec151eec1ac80b8ff7c6.png",
+    "static/media/desk.png": "/Portfolio/static/media/desk.fc341ff187555e495679.png",
+    "static/media/task01.png": "/Portfolio/static/media/task01.d86bd9932af3b108bd69.png",
+    "static/media/task04.png": "/Portfolio/static/media/task04.789d07d6b398320cb0c7.png",
+    "static/media/task05.png": "/Portfolio/static/media/task05.d72360422f722a64fdbe.png",
+    "static/media/task06.png": "/Portfolio/static/media/task06.3d16c36cfc00aa5902b4.png",
+    "static/media/task02.png": "/Portfolio/static/media/task02.62f1673df7be8f41c180.png",
+    "static/media/task03.png": "/Portfolio/static/media/task03.fdc3947cc480aad71624.png",
+    "index.html": "/Portfolio/index.html",
+    "main.2d465ea9.css.map": "/Portfolio/static/css/main.2d465ea9.css.map",
+    "main.e33b8af4.js.map": "/Portfolio/static/js/main.e33b8af4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d465ea9.css",
+    "static/js/main.e33b8af4.js"
+  ]
+}
