@@ -7,7 +7,7 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [email, setEmail] = useState('');
   const handleEmailClick = () => {
-    const mail = 'arunachalam.v2020@vitstudent.ac.in';
+    const mail = 'arunachalam3342@gmail.com';
     const sub=subject
     const sender=email
     const mailtoLink = `mailto:${mail}?subject=${encodeURIComponent(sub)}&cc=${encodeURIComponent(sender)}`;
@@ -82,8 +82,8 @@ const ContactPage = () => {
                 Contact Details
               </div>
               <ul className="ms-4 container-fluid" style={{ fontSize: "20px", listStyle: "none", fontStyle: "italic", textAlign: "justify" }}>
-                <li><i class="fa-solid fa-envelope"></i><b>MailID: </b>arunachalam.v2020@vitstudent.ac.in</li>
-                <li><i class="fa-solid fa-mobile"></i><b>Mobile: </b>93xxxxxx70</li>
+                <li><i class="fa-solid fa-envelope"></i><b>MailID: </b>arunachalam3342@gmail.com</li>
+                <li><i class="fa-solid fa-mobile"></i><b>Mobile: </b>9361758270</li>
               </ul>
             </Container>
           </Col>
