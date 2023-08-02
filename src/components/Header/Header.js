@@ -58,7 +58,7 @@ function Head() {
                     <Button
                         onClick={() => {
                             window.open(
-                                "https://drive.google.com/file/d/1f4gP5VqB94mb3aOPg7fiqQKo4O5Mg4g-/view?usp=sharing"
+                                "https://drive.google.com/file/d/12wYnOzbtlyP_ct70_0r2HSCXnl-ctfvl/view?usp=sharing"
                             )
                         }} className="resumebtn">
                         <span>Resume</span>
