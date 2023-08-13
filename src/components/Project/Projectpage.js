@@ -10,6 +10,7 @@ import img06 from "../../Assets/task06.png";
 import Real_Estate from "../../Assets/Real_Estate.png";
 import To_Do_List from "../../Assets/To-Do-List.png";
 import youtube from "../../Assets/Youtube.png";
+import imdb from "../../Assets/IMDB.png";
 
 function Projectpage() {
     return (
@@ -22,6 +23,9 @@ function Projectpage() {
                         </Col>
                         <Col md={4} className="project-card">
                             <ProjectCard imgPath={youtube} title="YOUTUBE CLONE" ghLink="https://arunachalam3342.github.io/Youtube-Clone/" />
+                        </Col>
+                        <Col md={4} className="project-card">
+                            <ProjectCard imgPath={imdb} title="IMDB CLONE" ghLink="https://arunachalam3342.github.io/Imdb-Clone/" />
                         </Col>
                         <Col md={4} className="project-card">
                             <ProjectCard imgPath={To_Do_List} title="To-Do-List" ghLink="https://arunachalam3342.github.io/To-Do-List/" />
