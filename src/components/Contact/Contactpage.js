@@ -8,12 +8,12 @@ const ContactPage = () => {
   const [email, setEmail] = useState('');
   const handleEmailClick = () => {
     const mail = 'arunachalam3342@gmail.com';
-    const sub=subject
-    const sender=email
+    const sub = subject
+    const sender = email
     const mailtoLink = `mailto:${sender}?subject=${encodeURIComponent(sub)}&bcc=${encodeURIComponent(mail)}`;
-    window.open(mailtoLink,'_blank');
+    window.open(mailtoLink, '_blank');
   };
-  
+
   /*
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,12 +32,12 @@ const ContactPage = () => {
       <h2 className="contacthead" style={{ textDecorationLine: "underline" }}>Get in Touch</h2>
       <Container className="aboutdetails">
         <div className='row'>
-          <Col md={6} style={{ boxShadow: "6px 6px 6px 6px #888888" }}>
+          <Col md={6} style={{ boxShadow: "6px 6px 6px 6px  rgba(0, 0, 0, 0.4)" }}>
             <Form>
               <Form.Group controlId="formName">
                 <Form.Label className="mt-1" style={{ fontSize: "larger", fontWeight: "bold", textDecorationLine: "underline" }}>Name</Form.Label>
                 <Form.Control className="mt-1 "
-                  
+
                   type="text"
                   placeholder="Name"
                   value={name}
@@ -49,7 +49,7 @@ const ContactPage = () => {
               <Form.Group controlId="formSubject">
                 <Form.Label className="mt-1" style={{ fontSize: "larger", fontWeight: "bold", textDecorationLine: "underline" }}>Subject</Form.Label>
                 <Form.Control className="mt-1 "
-                  
+
                   type="text"
                   placeholder="Subject for mail"
                   value={subject}
@@ -61,7 +61,7 @@ const ContactPage = () => {
               <Form.Group controlId="formEmail">
                 <Form.Label className="mt-1" style={{ fontSize: "larger", fontWeight: "bold", textDecorationLine: "underline" }}>Email</Form.Label>
                 <Form.Control className="mt-1 "
-                  
+
                   type="email"
                   placeholder="Email"
                   value={email}
@@ -90,7 +90,7 @@ const ContactPage = () => {
         </div>
         <br />
       </Container>
-      
+
 
     </div>
   );

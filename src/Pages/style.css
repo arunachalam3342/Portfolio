@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .navbar {
   width: 100%;
@@ -85,11 +84,13 @@
   font-weight: 500 !important;
   padding-right: 2rem !important;
   padding-left: 1rem !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .nav-link:hover {
   color: #191919 !important;
+  font-weight: 1000 !important;
+  font-size: 23px !important;
 }
 
 .resumebtn {
@@ -97,12 +98,32 @@
   border-radius: 25px;
   color: black;
   padding: 0 25px;
-  background-color: #4158d0;
-  background-image: linear-gradient(45deg, #d04141 35%,
-      #709bff 65%,
-      #f1ed20 100%);
+
+  --c: #e73c7e;
+
+  box-shadow: 0 0 0 0.1em inset var(--c);
+
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
+}
+
+.resumebtn:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+
+.resume-btn:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: rgb(235, 94, 100);
 }
 
 @media (max-width: 767px) {
@@ -119,11 +140,7 @@
     width: 100%;
     height: 250px;
     border-radius: 10px;
-    background-color: #4158d0;
-    background-image: linear-gradient(43deg,
-        #41d05e 0%,
-        #ffcc70 46%,
-        #c850c0 100%);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   }
 
   .nav-link {
@@ -138,10 +155,9 @@
     margin: 5px auto;
     padding: 8px 5px;
     letter-spacing: 1px;
+
   }
 }
-
-
 
 .homepagebackground {
   width: 100%;
@@ -223,9 +239,10 @@
 }
 
 .imagedeveloper {
-  margin-top: 50px;
-  max-width: 550px;
-  height: 400px;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 65vw;
+  height: 63vh;
   background-image: url(../Assets/developer.png);
   background-size: cover;
   background-position: center;
@@ -288,12 +305,11 @@
   }
 }
 
-
 .aboutpagebackground {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  
+
   padding-top: 110px;
 }
 
@@ -335,20 +351,20 @@
 
 .aboutdetails {
   font-size: 1.1em !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-align: justify;
   color: black;
 }
 
 .skilllist li {
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .skilllist {
   font-weight: 600;
   list-style-type: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .skilllist li:hover {
@@ -377,12 +393,9 @@
   }
 }
 
-
-
 .projectbackground {
   width: 100%;
   height: 100%;
-  
 }
 
 .project-section {
@@ -399,7 +412,7 @@
 }
 
 .card-text {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .project-card-view {
@@ -433,7 +446,7 @@
   justify-content: center;
   font-size: 18px;
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .btn-primary {
@@ -453,7 +466,6 @@
   box-shadow: none !important;
 }
 
-
 @media (max-width: 767px) {
   .project-section {
     padding-top: 40px !important;
@@ -465,7 +477,7 @@
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  
+
   padding-top: 110px;
 }
 
@@ -483,7 +495,7 @@
   font-size: 25px;
   letter-spacing: 1px;
   padding-bottom: 2rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin-left: auto;
   margin-right: auto;
 }
@@ -511,7 +523,7 @@
   font-size: 12px;
   color: black;
   opacity: 0.8;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .copyright span {
