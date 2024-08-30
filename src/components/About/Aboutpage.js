@@ -10,11 +10,14 @@ function Aboutpage() {
                 <Row className="textbackground">
                     <Col md={7}>
                         <h2 className="aboutmetext"> About ME</h2>
-                        <p className="aboutdetails">I am a dedicated programmer with a passion for problem-solving and computing. As a MERN Stack developer, I flourish on the challenges that programming presents and take pleasure in developing scalable and efficient solutions. I am committed to honing my programming skills and remaining abreast of the most recent industry trends, as I have a firm comprehension of software development principles and a voracious appetite for lifelong learning.</p>
-                        <ul className="skilllist" style={{ fontSize: "large" }}>
+                        <p className="aboutdetails">I am a dedicated programmer with a passion for problem-solving and computing. As a Developer, I flourish on the challenges that programming presents and take pleasure in developing scalable and efficient solutions. I am committed to honing my programming skills and remaining abreast of the most recent industry trends, as I have a firm comprehension of software development principles and a voracious appetite for lifelong learning.</p>
+                        <ul className="skilllist" style={{ fontSize: "larger" }}>
                             <Row>
-                                <h3 style={{ textDecorationLine: "underline", textAlign: "center" }}>Skills</h3>
-                                <Col md={7}>
+                                <h2 style={{ textDecorationLine: "underline", textAlign: "center" }}>Skills</h2>
+                                <Col md={12} style={{textAlign:'center'}}>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>Flask and Streamlit</li>
                                     <li>HTML5</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
@@ -23,12 +26,6 @@ function Aboutpage() {
                                     <li>ExpressJS</li>
                                     <li>NodeJS</li>
                                     <li>MongoDB</li>
-                                </Col>
-                                <Col md={7}>
-
-                                    <li>Java</li>
-                                    <li>Python</li>
-                                    <li>Flask and Streamlit</li>
                                     <li>C/CPP</li>
                                     <li>R</li>
                                     <li>XML</li>
