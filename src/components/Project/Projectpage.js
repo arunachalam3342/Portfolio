@@ -7,6 +7,7 @@ import img02 from "../../Assets/task02.png";
 import img05 from "../../Assets/task05.png";
 import img06 from "../../Assets/task06.png";
 import Publish1 from "../../Assets/Project Publish.png";
+import Publish2 from "../../Assets/Publish2.png";
 import Real_Estate from "../../Assets/Real_Estate.png";
 import To_Do_List from "../../Assets/To-Do-List.png";
 import youtube from "../../Assets/Youtube.png";
@@ -18,6 +19,13 @@ function Projectpage() {
       <Container fluid className="project-section">
         <Container className="h-auto">
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={Publish2}
+                title="Enhanced Detection of Hate Speech in Dravidian Languages in Social Media Using Ensemble Transformers"
+                ghLink="https://www.informingscience.org/Publications/5403?Type=conferenceproceedin"
+              />
+            </Col>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Publish1}

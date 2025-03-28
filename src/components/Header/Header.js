@@ -55,14 +55,14 @@ function Head() {
                         </NavLink>
                     </Nav.Item>
 
-                    <Button
+                    {/*<Button
                         onClick={() => {
                             window.open(
                                 "https://drive.google.com/file/d/1i3g3eoErwL0jvTp8pkxBmiyA5sgEYYhm/view?usp=sharing"
                             )
                         }} className="resumebtn">
                         <span>Resume</span>
-                    </Button>
+                    </Button>*/}
                 </Nav>
             </Navbar.Collapse>
 

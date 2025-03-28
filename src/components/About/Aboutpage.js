@@ -16,8 +16,14 @@ function Aboutpage() {
                                 <h2 style={{ textDecorationLine: "underline", textAlign: "center" }}>Skills</h2>
                                 <Col md={12} style={{textAlign:'center'}}>
                                     <li>Python</li>
-                                    <li>Java</li>
+                                    <li>Airflow</li>
+                                    <li>Prompt Engineering</li>
                                     <li>Flask and Streamlit</li>
+                                    <li>Snowflake</li>
+                                    <li>PySpark</li>
+                                    <li>PowerBi</li>
+                                    <li>SQL</li>
+                                    <li>AWS</li>
                                     <li>HTML5</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
@@ -27,9 +33,9 @@ function Aboutpage() {
                                     <li>NodeJS</li>
                                     <li>MongoDB</li>
                                     <li>C/CPP</li>
+                                    <li>Java</li>
                                     <li>R</li>
                                     <li>XML</li>
-                                    <li>SQL</li>
                                     <li>Git/Github</li>
                                     <li>UIPath</li>
 

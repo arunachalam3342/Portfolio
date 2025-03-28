@@ -10,7 +10,7 @@ function Home() {
         <div className='homepagebackground'>
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={6}>
                         <h2 className='headtext'>Hi </h2>
                         <h2 className='nametext'>I'm Arunachalam.V</h2>
                         <span></span>
@@ -24,10 +24,12 @@ function Home() {
                         }}
                             className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
 
+                        {/*
                         <button onClick={() => {
                             window.open("https://www.instagram.com/arun.v.214/");
                         }}
                             className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+                        */}
                     </Col>
 
                     <Col md={5}>
